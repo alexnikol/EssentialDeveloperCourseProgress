@@ -13,7 +13,7 @@ class EssentialFeedAPIEndToEndTests: XCTestCase {
     func test_endToEndTestServerGETFeedResult_matchesFixedTestAccountData() {
         switch getFeedResult() {
         case let .success(items):
-            XCTAssertEqual(items.count, 7, "Expected 8 items in the test account feed")
+            XCTAssertEqual(items.count, 8, "Expected 8 items in the test account feed")
             
             items.enumerated().forEach { (index, item) in
                 XCTAssertEqual(item, expectedItem(at: index), "Unexpected item values at index \(index)")
