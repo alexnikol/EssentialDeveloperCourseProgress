@@ -1,1 +1,1 @@
-![CI](https://github.com/alexnikol/EssentialDeveloperCourseProgress/workflows/CI/badge.svg)
+![CI](https://github.com/alexnikol/EssentialDeveloperCourseProgress/workflows/CI/badge.svg?event=push)
