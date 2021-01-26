@@ -1,16 +1,12 @@
 //
-//  RemoteFeedItem.swift
-//  EssentialFeed
-//
-//  Created by Alexander Nikolaychuk on 04.01.2021.
+//  Copyright © 2019 Essential Developer. All rights reserved.
 //
 
 import Foundation
 
 internal struct RemoteFeedItem: Decodable {
-    internal let id: UUID
-    internal let description: String?
-    internal let location: String?
-    internal let image: URL
+	internal let id: UUID
+	internal let description: String?
+	internal let location: String?
+	internal let image: URL
 }
-
